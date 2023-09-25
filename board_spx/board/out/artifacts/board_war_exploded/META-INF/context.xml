@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Context>
+    <Resource name="jdbc/MariaDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="kb"
+              password="1111"
+              driverClassName="org.mariadb.jdbc.Driver"
+              factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+              url="jdbc:mariadb://bzu.co.kr:3306/kb?serverTimezone=UTC"
+
+    />
+</Context>
